@@ -68,25 +68,25 @@ section img {
 }
 
 .AboutText {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	text-align: left;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 	flex-grow: 0;
    	flex-shrink: 0;
-   	flex-basis: 45%;
+   	flex-basis: 70%;
 }
 
 .AboutText img {
 	margin-top: 80px;
-	width: 18%;
-	height: 130px;
+	margin-bottom: 20px;
+	width: 50%;
+	height: 250px;
 	border: 5px solid #000000;
 }
 .AboutText p {
-	font-size: 12px;
+	margin-top: 50px;
+	font-size: 1.5rem;
 	color: #919191;
+	font-style: italic;
 }
 .lists {
 	display: flex;
@@ -117,14 +117,26 @@ section p {
 	font-size: 1.5rem;
 }
 
+
+.intro h1 {
+	margin-top: 30px;
+	align-items: left;
+	justify-content: left;
+	text-align: left;
+}
+.intro h2{
+	align-items: left;
+	justify-content: left;
+	text-align: left;
+}
+
 .achievements {
 
-	display:flex;
-	flex-direction:column;
 	align-items: left;
 	justify-content: left;
 	text-align: left;
 	font-size: 14px;
+	padding-right: 10px;
 }
 
 .achievements h4 {
@@ -134,8 +146,6 @@ section p {
 
 
 .education {
-	display:flex;
-	flex-direction:column;
 	align-items: left;
 	justify-content: left;
 	text-align: left;
@@ -199,3 +209,5 @@ section p {
 .contact h4 {
 	color: #FFFF00;
 }
+
+
